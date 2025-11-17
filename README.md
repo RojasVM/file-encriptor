@@ -81,9 +81,9 @@ cmake --build build -j
 ```
 
 ## Troubleshooting
-- Install libsodium dev files.
-- Ensure pkg-config is installed.
-- For custom libsodium prefix:
+- Ensure libsodium development files are installed.
+- Verify pkg-config is available on Linux.
+- If using a non-standard libsodium installation prefix:
 ```bash
 export PKG_CONFIG_PATH=/prefix/lib/pkgconfig:$PKG_CONFIG_PATH
 ```
