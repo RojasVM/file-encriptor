@@ -1,4 +1,4 @@
-# File Encryptor
+# file-encryptor
 
 A small C++17 project that builds a `file_encryptor` command-line tool using **libsodium** for cryptographic primitives.
 The project uses **CMake** and supports **GNU/Linux** and **Windows**.
